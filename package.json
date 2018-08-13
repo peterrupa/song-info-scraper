@@ -1,0 +1,23 @@
+{
+  "name": "song-info-scraper",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Peter Rupa",
+  "license": "ISC",
+  "dependencies": {
+    "async-throttle": "^1.1.0",
+    "cheerio": "^1.0.0-rc.2",
+    "fs-promise": "^2.0.3",
+    "lodash": "^4.17.4",
+    "mkdirp": "^0.5.1",
+    "musicmetadata": "^2.0.5",
+    "node-id3": "0.0.10",
+    "request": "^2.81.0",
+    "request-promise-native": "^1.0.4",
+    "yargs": "^8.0.2"
+  }
+}
